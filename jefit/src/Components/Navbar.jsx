@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <div>
             <nav className="navbar navbar-expand-lg" style={{backgroundColor:"#257cff", padding:"20px",height:"40px"}}>
-                <div className="container"style={{display:"flex", gap:"50px", marginLeft:"80px",color:"white",fontSize:"larger"}} >
+                <div className="container"style={{display:"flex", gap:"40px", marginLeft:"80px",color:"white",fontSize:"larger"}} >
                     <div>
                     <a className="navbar-brand" href="#">
                     <img src="https://www.jefit.com/wp/wp-content/uploads/2017/07/cropped-logo_155_40_white-150x40.webp" alt="" style={{maxWidth:"120px"}} />
@@ -59,14 +59,14 @@ const Navbar = () => {
                         <p className="nav-item navbar-nav">Elite</p>
                     </div>
                     <div  className="small-div">
-                        <Link to="" style={{color: 'white', textDecoration: 'none'}} >
+                        <Link to="/login" style={{color: 'white', textDecoration: 'none'}} >
                         <p className="nav-item navbar-nav">Login</p>
                         </Link>
                         
                     </div>
                     <div>
-                        <Link to="">
-                        <button className='btn' style={{borderRadius:"5px",width:"120px",height:"35px",color:"#257cff", backgroundColor:"white", marginBottom:"5px"}}>Signup</button>
+                        <Link to="/signup">
+                        <button className='bt' >Signup</button>
                         </Link>
                         
                         
