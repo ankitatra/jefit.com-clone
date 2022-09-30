@@ -3,9 +3,9 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-        <div className="container-fluid" style={{backgroundColor: "#7e868c", padding:"80px"}}>
-        <div className="container">
-            <div className="row">
+        <div className="container-fluid" style={{backgroundColor: "#F8FBFE", padding:"80px", height:"200px"}}>
+        <div className="container" >
+            <div className="row" style={{display:"flex",border:"1px solid red"}}>
                 <div className="col-md-3">
                     <p><b>Product</b></p>
                     <p className="pall">Elite Membership</p>
