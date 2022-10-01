@@ -204,7 +204,7 @@ h6{
   width:90%;
   display: grid;
   place-items: center;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .slide-track{
@@ -244,7 +244,7 @@ img:hover{
   height: 100%;
   position:absolute;
   width:15%;
-  /* z-index: 2; */
+  z-index: 2;
 }
 .slider::before{
   left: 0;
