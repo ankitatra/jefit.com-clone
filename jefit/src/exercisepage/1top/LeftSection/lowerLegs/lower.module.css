@@ -1,0 +1,28 @@
+.title{
+    color:#19719a  ;
+    font-family: DM Sans - 500;
+    font-size: 20px;
+    font-weight: 500;
+    line-height:23px
+}
+.info{
+    
+    font-family: DM Sans - 400;
+    font-size: 13px;
+    font-weight: 400;
+    line-height:18px
+}
+.button{
+    font-family: Montserrat - 700;
+    font-size: 12px;
+    font-weight: 700;
+    line-height:18px;
+    background-color: #2f9dd8 ;
+    color: white;
+}
+.heading{
+    font-family: DM Sans - 700;
+    font-size: 16px;
+    font-weight: 600;
+    line-height:18px
+}

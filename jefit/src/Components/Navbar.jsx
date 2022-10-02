@@ -47,7 +47,10 @@ const Navbar = () => {
                             
                     </div>
                     <div className="small-div">
-                        <p className="nav-item navbar-nav">Excercise Guide</p>
+                       <Link to="/exercise">
+                       <p className="nav-item navbar-nav">Excercise Guide</p>
+                        </Link>
+                       
                     </div>
                     <div  className="small-div">
                         <p className="nav-item navbar-nav">Blog</p>

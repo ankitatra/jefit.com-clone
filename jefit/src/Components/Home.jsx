@@ -1,5 +1,5 @@
 import Footer from "./footer"
-import Navbar from "./Navbar"
+
 import DisplayCard from "./DisplayCard"
 import Workoutneed from './Workoutneed';
 import SmartWatch from './SmartWatch';
@@ -12,7 +12,6 @@ function Home() {
   return (
     <div >
       
-      <Navbar/>
       <DisplayCard/>
       <Slider/>
       <Workoutneed/>
